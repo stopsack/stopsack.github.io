@@ -1,0 +1,75 @@
+---
+title: "Konrad H. Stopsack, MD MPH"
+image: "stopsack.jpg"
+titles:
+  - description: "Cancer epidemiologist"
+  - description: "Research Associate, Memorial Sloan Kettering Cancer Center"
+  - description: "Visiting Scientist, Harvard T.H. Chan School of Public Health"
+links:
+  - label: '`r gs <- icons::academicons("google-scholar"); 
+            gs$attribs$viewBox <- "0 0 448 512"; 
+            gs` Google Scholar'
+    url: "https://scholar.google.com/citations?user=7jN6YU0AAAAJ&hl=en&num=20&oi=ao"
+  - label: '`r or <- icons::academicons("orcid"); 
+            or$attribs$viewBox <- "0 0 512 512"; 
+            or` ORCID'
+    url: "https://orcid.org/0000-0002-0722-1311"
+  - label: '`r icons::fontawesome("github")` Github'
+    url: "https://github.com/stopsack"
+links-row2:
+  - label: '`r icons::fontawesome("envelope")` stopsack@mskcc.org'
+    url: "mailto:stopsack@mskcc.org"
+output:
+  postcards::trestles
+---
+
+<p style="margin-top:5rem;"> </p>
+
+I am a <span class="highlight">molecular and clinical epidemiologist with a focus on cancer epidemiology</span> and a background as a board-certified internal medicine physician. My main research interest is how potentially modifiable exposures cause solid tumors through genomic heterogeneity and influence cancer progression. I am passionate about combining well-defined observational studies and state-of-the-art genomics in order to guide cancer prevention and treatment. My methodologic and teaching interests include application and further development of epidemiologic methods for high-dimensional biomarker studies and clinical studies.
+
+As a Research Associate at Memorial Sloan Kettering, I lead <span class="highlight">a highly interdisciplinary research program</span> across epidemiology, genomics, pathology, bioinformatics, clinical medicine, and preclinical research. I am the principal investigator of a Prostate Cancer Foundation Young Investigator Award, a Department of Defense Early-Investigator Research Award, and key personnel on several other third-party funded grants.
+
+## Education
+
+**Memorial Sloan Kettering Cancer Center** | New York, NY<br />
+Postdoctoral Training in Cancer Epidemiology | Present
+
+**Mayo Clinic** | Rochester, MN<br />
+Residency/Board Certification in Internal Medicine | 2017
+
+**Harvard School of Public Health** (now Harvard T.H. Chan School of Public Health) | Boston, MA<br />
+M.P.H. in Epidemiology/Biostatistics | 2014
+
+**University of Freiburg** | Freiburg, Germany<br />
+M.D. | 2013; Dr. med. | 2014
+
+## Selected Publications
+
+1. Drago JZ, Gönen M, Thanarajasingam G, Sacks CA, Morris MJ, Kantoff PW, **Stopsack KH.** Inferences about drug safety in phase 3 trials in oncology: Examples from advanced prostate cancer. *JNCI J Natl Cancer Inst*. 2021;113(5):553-561. [Journal article with free full text](https://academic.oup.com/jnci/advance-article/doi/10.1093/jnci/djaa134/5898636?guestAccessKey=95f5041a-ead1-4ef4-b05a-3f88e672b4db) \| [Accompanying editorial](https://academic.oup.com/jnci/advance-article/doi/10.1093/jnci/djaa135/5898637)
+
+2. **Stopsack KH**, Huang Y, Tyekucheva S, Gerke TA, Bango C, Elfandy H, Bowden M, Penney KL, Roberts TM, Parmigiani G, Kantoff PW, Mucci LA, Loda M. Multiplex immunofluorescence in formalin-fixed paraffin-embedded tumor tissue to identify single cell-level PI3K pathway activation. *Clin Cancer Res*. 2020;26(22):5903-5913. [Journal article](https://doi.org/10.1158/1078-0432.CCR-20-2000) \| [Cover image](https://clincancerres.aacrjournals.org/content/26/22.cover-expansion) \| [Free fulltext](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7669556)
+	
+3. **Stopsack KH**, Nandakumar S, Wibmer AG, Haywood S, Weg ES, Barnett ES, Kim CJ, Carbone EA, Vasselman SE, Nguyen B, Hullings MA, Scher HI, Morris MJ, Solit DB, Schultz N, Kantoff PW\*, Abida W\* (\* equal contribution). Oncogenic genomic alterations, clinical phenotypes, and outcomes in metastatic castration-sensitive prostate cancer. *Clin Cancer Res*. 2020;26(13):3230-3238. [Journal article](https://doi.org/10.1158/1078-0432.CCR-20-0168) \| [Free fulltext](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7334067) \| [Results and supplement with hyperlinks](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7334067/bin/NIHMS1580358-supplement-1.html) \| [Dataset on cBioPortal](https://www.cbioportal.org/study/summary?id=prad_mcspc_mskcc_2020)
+	
+4. **Stopsack KH**, Whittaker CA, Gerke TA, Loda M, Kantoff PW, Mucci LA, Amon A. Aneuploidy drives lethal progression in prostate cancer. *Proc Natl Acad Sci U S A*. 2019;116(23):11390-11395. [Journal article with free full text](https://doi.org/10.1073/pnas.1902645116)
+
+[Complete List of Publications](https://scholar.google.com/citations?user=7jN6YU0AAAAJ&hl=en&num=20&oi=ao)
+
+## Methods and Software
+
+1. *batchtma* R package: Methods to address batch effects. [batchtma R package: download, documentation, and vignettes](https://stopsack.github.io/batchtma/). Accompanying manuscript: **Stopsack KH**, Tyekucheva S, Wang M, Gerke TA, Vaselkiv JB, Penney KL, Kantoff PW, Finn SP, Fiorentino M, Loda M, Lotan TL, Parmigiani G\*, Mucci LA\* (* equal contribution). Extent, impact, and mitigation of batch effects in tumor biomarker studies using tissue microarrays. [bioRxiv preprint](https://www.biorxiv.org/content/10.1101/2021.06.29.450369v2) (June 30, 2021)
+
+2. *risks* R package: Estimating risk ratio and risk differences using regression. [risks R package: download, documentation, and vignettes](https://stopsack.github.io/risks/)
+
+
+```{css echo=FALSE}
+.highlight{
+  color: #D16103; 
+}
+.highlight-secondary {
+  color: #4E84C4;
+}
+.section.level2 h2 {
+  color: #4E84C4;
+}
+```
